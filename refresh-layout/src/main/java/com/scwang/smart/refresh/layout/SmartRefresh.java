@@ -20,7 +20,7 @@ public class SmartRefresh extends SmartRefreshLayout {
         setEnableOverScrollDrag(true);
         setRefreshHeader(new ClassicsHeader(getContext()));
         setRefreshFooter(new ClassicsFooter(getContext()));
-        setReboundDuration(2000);
+        setReboundDuration(1000);
         setEnableOverScrollBounce(true);
     }
 }
